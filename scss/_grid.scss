@@ -1,0 +1,44 @@
+  /* grid area */
+.h3-galeria {
+   @include center;
+    font-size: $letra-size -15 ;
+    font-family: $estilo-letra;
+    margin: 2%;
+  }
+   
+.galeria { 
+    display: grid;
+    grid-template-columns: repeat(1, 320px);
+    grid-template-rows: repeat(9,320px);
+    grid-gap: 5px;
+    @include center;
+    img {
+      object-fit: cover;
+      width: 80%;
+      height: 80%;
+      margin: 5px;
+      transition: all 300ms;
+      
+    }
+  }
+
+.galeria2 {
+display: grid;
+grid-template-columns: repeat(1, 320px);
+grid-template-rows: repeat(5,320px);
+grid-gap: 5px;
+@include center;
+  img {
+      object-fit: cover;
+      width: 80%;
+      height: 80%;
+      margin: 5px;
+      transition: all 300ms;
+  }
+
+
+
+
+
+
+}

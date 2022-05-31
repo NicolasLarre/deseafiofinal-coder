@@ -1,0 +1,292 @@
+@media only screen and (min-width: 1024px){
+  
+    /* Barra de navegacion */
+    #tama-navbar {
+      @include altura(50px);
+    }
+    nav { 
+      font-size: $letra-size - 25;
+      font-weight: bold;
+    }
+    .navbar-nav {
+      padding-left: 65%;
+    }
+    .dropdown-menu {
+      font-size: 12px;
+    }
+    .logo-amici { 
+      width: 100px;
+      @include altura(100px);
+      position: relative;
+      top: 4px;
+    }
+    .form-control {
+      font-size: $letra-size - 20;
+    }
+    .btn { 
+      font-size: $letra-size - 25;
+      font-weight: bold;
+      color: #626060;
+    }
+    .navbar-toggler {
+      font-size: $letra-size - 20;
+    }
+    .navbar-collapse { 
+      @include altura(100px);
+    }
+    .navbar-na {
+      @include altura(100px);
+    }
+    .navbar-light .navbar-nav .nav-link {
+      font-size: 12px;
+    }
+    
+    /* INDEX IMAGENES */
+    
+.foto-header {
+       p {
+         position: relative;
+         top: 50px;
+       }
+       .off-abajo {
+        margin-top: 11%
+      }
+      }
+ #imagenes-index div img{ 
+      width: 100%;
+      margin: 1%;
+    }
+    
+    /* Productos */
+  .intro-1 h3{ 
+      @include center;
+      font-size: $letra-size - 20;
+      background-color: $color-secundary;
+      font-family: $estilo-letra;
+      font-weight: bold;
+    }
+  #cartas {
+      margin-left: 2%;
+  }
+    
+  .ver-mas { 
+      display: flex;
+      justify-content: center;
+      position: relative;
+      right: 10px;
+      h3 { 
+          font-size: $letra-size - 20;
+      }
+    }
+     
+    /* Nosotras */
+  .nosotras-0 h3{ 
+      @include center;
+      font-size: $letra-size - 20;
+      font-weight: bold;
+      margin: 5%;
+      border: solid rgb(241, 240, 240);
+    }
+  
+  .nosotras div { 
+    @include center;
+     img { 
+      width: 50%;
+      height: 50%;
+      border-radius: 5px;
+      box-shadow: 1px 10px 15px rgba(0,0,0,0.50);
+  }
+    }
+   
+     
+  .nosotras-2 h3{
+     font-size: $letra-size - 10;
+     font-style: normal;
+     font-weight: bold;
+     color: #080707;
+     text-shadow: 4px 4px 5px hsl(0, 1%, 50%);
+     @include center;
+     margin: 5%;
+    }
+     
+  .nosotras-3 {
+    img { 
+     width: 40%;
+     height: 40%;
+     margin: 5%;
+     margin-left: 30%;
+  }
+    h3 {
+      @include center;
+       }   
+  }
+  
+    
+  /* CONFIGURACION DE INICIO DE SESION */
+      
+  .sesion-1 h3{ 
+      font-size: $letra-size - 15;
+      margin: 5%;
+      font-family: 'Heebo', sans-serif;
+      @include center;
+    }
+          
+    /* Cuadro englobador y correo/contraseña */
+  .sesion-2 {
+      position: relative;
+      top: 10px;
+      width: 400px;
+      height: 350px;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #b9b9b9;
+      @include center;
+      box-shadow:  2px 5px 30px #000;
+      margin: auto;
+      color: white;
+      h3 { 
+          font-size: $letra-size;
+          padding: 25px;
+          font-weight: bold;
+        }
+      div input { 
+          border: solid hsl(192, 64%, 47%);
+          font-size: $letra-size - 20;
+          margin: 3%;
+        }
+  /*olvidaste tu contraseña?  */
+      div p a{ 
+      color: white;
+      position: relative;
+      top: 15px;
+      text-decoration: none;
+      font-size: $letra-size - 20;
+    }
+  
+  }
+          
+    /* BOTON INGRESAR */
+    .sesion-3 input{ 
+      position: relative;
+      top: 10px;
+    }
+          
+    /* si sos nuevo */
+  .sesion-4 {
+    h3 {
+      position: relative;
+      top: 10px;
+      font-size: $letra-size - 10;
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 3%;
+    }
+    input { 
+      @include center;
+      border: solid hsl(192, 64%, 47%);
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+      font-size: $letra-size - 25;
+      position: relative;
+      
+    }
+  }
+    /* Fin de incio de sesion */
+    
+    /* REGISTRARME */    
+  
+.englobador-registro {
+       width: auto;
+       height: 100%;
+       font-family: Arial, Helvetica, sans-serif;
+       background-color: #b9b9b9;
+       text-align: center;
+       box-shadow:  2px 5px 30px #000;
+       margin: 15%;
+     }  
+.registrate-1 { 
+  margin: 5%;
+      
+  h3 {
+        font-size: $letra-size - 10;
+        font-family: 'Heebo', sans-serif;
+      }
+    }
+  .registrate-4 button {
+      font-size: $letra-size - 23;
+    }
+     
+   #boton-ingresar {
+     position: relative;
+     left: 275px;
+     top: 20px;
+   }
+    /* Inicio del footer */
+
+footer {
+      .title-foo {
+        font-size: 15px;
+      }
+      
+      .fa-brands {
+        width: 87px
+      }
+      
+      .fa-instagram {
+        font-size: $letra-size - 10;
+
+      }
+      
+      .fa-facebook {
+        font-size: $letra-size - 10;
+
+      }
+      .fa-whatsapp {
+        font-size: $letra-size - 10;
+
+      }
+      .pyp {
+        position: relative;
+        right: 2px;
+      }
+      
+    }
+  
+  
+    /* fin del footer */
+    
+    
+    /* grid area */
+    .h3-galeria {
+      @include center;
+      font-size: $letra-size - 15;
+      margin-top: 1%;
+    }
+    
+    .galeria { 
+      display: grid;
+      grid-template-columns: repeat(3, 335px);
+      grid-template-rows: repeat(3,350px);
+      grid-gap: 5px;
+      img {
+        object-fit: cover;
+        width: 70%;
+        height: 70%;
+        margin-top: 50px ; 
+        
+      }
+    }
+    .galeria2 { 
+      display: grid;
+      grid-template-columns: repeat(3, 335px);
+      grid-template-rows: repeat(2,350px);
+      grid-gap: 5px;
+      img {
+        object-fit: cover;
+        width: 70%;
+        height: 70%;
+        margin-top: 50px ; 
+        
+      }
+    }
+    
+    }
+   

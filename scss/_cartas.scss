@@ -1,0 +1,44 @@
+  /* Main de Productos */
+
+  .body-productos {
+    background-color: white
+  }
+
+  .btn-primary {
+    color: #080707;
+    background-color: #e0e8f3;
+    border-color: #eaedf1;
+  }
+
+  .intro-1 h3{ 
+    @include center;
+    font-size: $letra-size - 20;
+    background-color: $color-secundary;
+    font-family:$estilo-letra;
+    font-weight: bold;
+    border-radius: 100%;
+    margin: 5%;
+  }
+  #cartas .col-lg-4 {
+  margin: 0%;
+  padding: 25px;
+  }
+  
+  /* Productos/ver mas */
+  .ver-mas { 
+    display: flex;
+    justify-content: center;
+    position: relative;
+    right: 5px;
+    ul {
+      list-style-type: none;
+     }
+     a { 
+      text-decoration: none;
+      color: #000;
+    }
+     h3 { font-size: $letra-size - 25;
+      font-weight: bold;} 
+  
+  }
+      /* Fin de main de Productos */

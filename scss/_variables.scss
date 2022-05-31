@@ -1,0 +1,12 @@
+//variables//
+$color-primary: #bef3f3;
+$color-secundary: rgb(252, 143, 215);
+$estilo-letra: 'Heebo', sans-serif;
+$letra-size: 40px;
+//Mixing//
+@mixin center {
+    text-align: center;
+}
+@mixin altura ($alto) {
+    height: $alto;
+  }

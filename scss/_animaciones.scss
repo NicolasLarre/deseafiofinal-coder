@@ -1,0 +1,49 @@
+/* Animaciones Cartas */
+#cartas .card:hover {
+    border: solid rgb(121, 100, 107);
+  } 
+  
+  /* Animacion  Titulo Productos Disponibles */
+  .intro-1 h3 {
+    animation: rosa-verde 3s ease;
+    transition: all;
+  }
+  @keyframes rosa-verde {
+    0% { 
+        background-color: rgb(172, 143, 252);
+        transform: translate(170px);
+    
+    }
+  
+    30% {
+        background-color: rgb(223, 194, 224);
+        transform: translate(170px);
+    }
+    
+    50% {
+        background-color: #555555;
+        transform: translate(130px);
+    }
+    
+    70% {
+        background-color: #30caf1;
+        transform: translate(60px);
+  
+    }
+    100% {
+        background-color: #e100ff;
+        transform: translate(20px);
+    }
+  }
+//animaciones grid//
+  .transformacion-1:hover {
+    transform: scale(1.15);
+  }
+
+//animaciones index//
+.index-hover:hover {
+    opacity: 90%;
+    background-color: white;
+
+  }
+

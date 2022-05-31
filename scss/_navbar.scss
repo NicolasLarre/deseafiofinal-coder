@@ -1,0 +1,38 @@
+/* Barra de navegacion */
+nav { 
+    font-size: $letra-size - 29;
+    font-weight: bold;
+    background: rgb(251,251,251);
+    background: linear-gradient(90deg, rgba(251,251,251,1) 0%, rgba(224,224,224,1) 44%, rgba(177,177,177,1) 100%);
+  }
+
+  .bg-light {
+    --bs-bg-opacity: 1;
+    background-color: hwb(240 91% 6%)!important;
+}
+
+  .dropdown-menu {
+    font-size: $letra-size - 30;
+  }
+  .logo-amici { 
+    width: 80px;
+    @include altura(40px *2);
+  }
+  .form-control {
+    font-size: $letra-size - 10;
+  }
+  /* Todos los botones del nav */
+  .navbar-light .navbar-nav .nav-link {
+    font-weight: bold;
+    font-family: 'Heebo', sans-serif;
+  }
+  /* Munu despegable */
+  .navbar-toggler {
+    font-size: $letra-size - 25;
+  }
+  .navbar-collapse { 
+    min-height: 140px;
+  }
+  /* Dentro de Usuario */
+  .navbar-na {min-height: 250px;
+  }

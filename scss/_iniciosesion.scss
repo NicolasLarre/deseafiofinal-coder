@@ -1,0 +1,79 @@
+/* CONFIGURACION DE INICIO DE SESION */
+.fondo-ini-regis {
+  background: url(../imagenes/fondolila.jpg);
+}    
+.sesion-1 {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+
+   h3{ 
+    font-size: $letra-size - 22;
+    margin: 5%;
+    font-family: $estilo-letra;
+    background-color:  #b9b9b9;
+    text-align: center;
+    color: white;
+    padding: 10px;  
+    
+  } 
+}
+  /* Cuadro englobador y correo/contraseña */
+  .sesion-2 {
+      position: relative;
+      top: 10px;
+      width: 285px;
+      height: 345px;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #b9b9b9;
+      @include center;
+      box-shadow:  2px 5px 30px #000;
+      margin: auto;
+      color: white;
+    h3 { 
+      font-size: $letra-size - 10;
+      padding: 25px;
+      font-weight: bold;
+    }
+    div input { 
+      border: solid hsl(192, 64%, 47%);
+      font-size: $letra-size - 21;
+      margin: 3%;
+    }
+    div p a{ 
+      color: white;
+      position: relative;
+      top: 40px;
+      text-decoration: none;
+      font-size: $letra-size - 16;
+    }
+  }
+         
+  
+  /* BOTON INGRESAR */
+  .sesion-3 input{ 
+    position: relative;
+    top: 10px;
+  }
+        
+  /* si sos nuevo */
+  .sesion-4 {
+    @include center;
+    h3 {
+      position: relative;
+      top: 11px;
+      font-size: $letra-size - 15;
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 4%;
+    }
+    input { 
+      @include center;
+      border: solid hsl(192, 64%, 47%);
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+      font-size: $letra-size - 27;
+      margin: 2%;
+    }
+  }
+  
+  /* Fin de incio de sesion */

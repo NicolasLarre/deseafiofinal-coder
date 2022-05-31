@@ -1,0 +1,136 @@
+@media screen and (min-width: 768px){
+
+    // Navbar
+
+  .navbar-toggler {
+      font-size: 16px;
+   }
+    
+  .navbar-collapse { 
+      min-height: 100%;
+   }
+    
+  .logo-amici {
+      width: 68px;
+      height: 68px;
+   }
+   .navbar-light .navbar-nav .nav-link {
+     font-size: 10px;
+   }
+    
+  nav { 
+      font-size: $letra-size - 25;
+   }
+    
+  .dropdown-menu {
+      font-size: $letra-size - 30;
+   }
+    
+  //  index
+  .foto-header {
+    h3 {
+      max-height: 30px;
+      font-size: $letra-size - 20;
+      margin: 0%;
+    }
+    p {
+      position: relative;
+      top: 45px;
+    }
+    .off-abajo {
+      margin-bottom: 10px;
+    }
+
+  }
+  #imagenes-index div img {
+    width: 55%;
+    margin: 1%;
+  }
+  // Productos
+  #cartas {
+    margin-left: 5%;
+  }
+  
+  .intro-1 h3 {
+    font-size: $letra-size - 20;
+  } 
+   
+   
+   // footer
+   footer {
+   .title-foo {
+     font-size: 14px;
+   }
+   
+   .fa-brands {
+     font-size: 20px;
+     width: 59px;
+   }
+  .pyp {
+      @include center;
+   }
+  }
+  // Nosotras
+  .nosotras div img {
+      width: 70%;
+  }
+  
+  .nosotras-0 h3 {
+    font-size: $letra-size - 10;
+   }
+  .nosotras-2 h3 {
+   font-size: $letra-size - 20;
+   } 
+  .nosotras-3 {
+    h3 {
+      font-weight: bold;
+    font-size: $letra-size - 20;
+  }
+    img {
+        width: 60%;
+        margin-left: 20%;
+    }
+   }
+
+  
+  
+  // Registro
+     #boton-ingresar {
+      display: flex;
+      justify-content: center;
+      position: relative;
+      left: 240px;
+      top: 10px;
+    }
+     
+   .galeria { 
+    display: grid;
+    grid-template-columns: repeat(3, 260px);
+    grid-template-rows: repeat(3,270px);
+    @include center;
+    img {
+      object-fit: cover;
+      width: 60%;
+      height: 60%;
+     transition: all 300ms;
+      
+    }
+  }
+  .galeria2 {
+    display: grid;
+    grid-template-columns: repeat(3, 260px);
+    grid-template-rows: repeat(2,270px);
+    @include center;
+    img {
+      object-fit: cover;
+      width: 60%;
+      height: 60%;
+     transition: all 300ms;
+      
+    }
+
+  }
+
+
+
+}

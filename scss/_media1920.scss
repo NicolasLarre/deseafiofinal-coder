@@ -1,0 +1,131 @@
+@media only screen and (min-width: 1920px) {
+// navbar
+
+.navbar-nav {
+        padding-left: 77%;
+      }
+
+.navbar-light .navbar-nav .nav-link {
+        font-size: 20px;
+      }
+
+.dropdown-menu {
+        font-size: 16px;
+    }
+.logo-amici { 
+        width: 150px;
+        @include altura(150px);
+    }
+
+// index
+.foto-header {
+        height: 300px;
+        h3 {
+          max-height: 40px;
+          font-size: 30px;
+        }
+          p {
+            position: relative;
+            top: 60px;
+            font-size: $letra-size +45;
+          }
+        .off-abajo {
+            margin-top: 91px;
+      }
+      }
+// footer
+footer {
+    .title-foo {
+        font-size: 23px;
+    }
+    .fa-instagram {
+        font-size: $letra-size;
+    
+      }
+      
+      .fa-facebook {
+        font-size: $letra-size;
+    
+      }
+      .fa-whatsapp {
+        font-size: $letra-size;
+    
+      }
+      .breadcrumb-item {
+        font-size: 20px;
+      }
+      .pyp a {
+        font-size: 20px;
+      }
+}
+
+// productos
+.intro-1 h3 {
+    font-size: $letra-size - 10;
+}
+#cartas {
+    margin-left: 19%;
+}
+// registro
+.englobador-registro {
+    width: 600px;
+    height: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    left: 0px;
+}
+.registrate-2 {
+  h3 {
+    font-size: $letra-size - 5;
+ }
+ input {
+     font-size: $letra-size - 20;
+}
+ }
+ .apellido-boton {
+    h3 {
+        font-size: 35px;
+    }
+     input {
+        font-size: $letra-size - 20;
+     }
+ }
+ 
+ .contra-boton {
+     h3 {
+    font-size: 35px;
+}
+input {
+    font-size: $letra-size - 20;
+ }
+}
+.registrate-4 #boton-ingresar{
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    left: 0px;
+    top: 10px;
+    font-size: 22px;
+}
+// galeria
+
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    grid-template-rows: repeat(3, 400px);
+ img {
+    width: 80%;
+    height: 80%;}
+
+}
+.galeria2 {
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    grid-template-rows: repeat(2, 400px);
+ img {
+    width: 80%;
+    height: 80%;}
+
+}
+}

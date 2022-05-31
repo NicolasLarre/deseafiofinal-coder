@@ -757,6 +757,84 @@ nav {
   footer .breadcrumb-item {
     font-size: 15px; } }
 
+@media only screen and (min-width: 1920px) {
+  .navbar-nav {
+    padding-left: 77%; }
+  .navbar-light .navbar-nav .nav-link {
+    font-size: 20px; }
+  .dropdown-menu {
+    font-size: 16px; }
+  .logo-amici {
+    width: 150px;
+    height: 150px; }
+  .foto-header {
+    height: 300px; }
+    .foto-header h3 {
+      max-height: 40px;
+      font-size: 30px; }
+    .foto-header p {
+      position: relative;
+      top: 60px;
+      font-size: 85px; }
+    .foto-header .off-abajo {
+      margin-top: 91px; }
+  footer .title-foo {
+    font-size: 23px; }
+  footer .fa-instagram {
+    font-size: 40px; }
+  footer .fa-facebook {
+    font-size: 40px; }
+  footer .fa-whatsapp {
+    font-size: 40px; }
+  footer .breadcrumb-item {
+    font-size: 20px; }
+  footer .pyp a {
+    font-size: 20px; }
+  .intro-1 h3 {
+    font-size: 30px; }
+  #cartas {
+    margin-left: 19%; }
+  .englobador-registro {
+    width: 600px;
+    height: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    left: 0px; }
+  .registrate-2 h3, .registrate-3 h3, .registrate-4 h3 {
+    font-size: 35px; }
+  .registrate-2 input, .registrate-3 input, .registrate-4 input {
+    font-size: 20px; }
+  .apellido-boton h3 {
+    font-size: 35px; }
+  .apellido-boton input {
+    font-size: 20px; }
+  .contra-boton h3 {
+    font-size: 35px; }
+  .contra-boton input {
+    font-size: 20px; }
+  .registrate-4 #boton-ingresar {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    left: 0px;
+    top: 10px;
+    font-size: 22px; }
+  .galeria {
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    grid-template-rows: repeat(3, 400px); }
+    .galeria img {
+      width: 80%;
+      height: 80%; }
+  .galeria2 {
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    grid-template-rows: repeat(2, 400px); }
+    .galeria2 img {
+      width: 80%;
+      height: 80%; } }
+
 body {
   margin: 0%;
   background-color: #fcabcc;

@@ -1,4 +1,4 @@
-# coder-git
+# coder-house
 desafio para coder house
 
 Index// Agregue las siguientes keywords: accesorios, descuentos, gorras, anillos, aros, amistad, buena atencion, espontaneidad, calidad, amor,perseverancia.

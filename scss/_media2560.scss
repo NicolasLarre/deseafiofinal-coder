@@ -1,0 +1,87 @@
+@media only screen and (min-width: 2560px) {
+    // navbar
+    
+.navbar-nav {
+            padding-left: 79%;
+          }
+    
+.navbar-light .navbar-nav .nav-link {
+            font-size: 25px;
+          }
+    
+.dropdown-menu {
+            font-size: 19px;
+        }
+.logo-amici { 
+            width: 180px;
+            @include altura(180px);
+        }
+// productos
+#cartas {
+    margin-left: 26%;
+       }   
+// inicio sesion
+.sesion-1 h3 {
+    font-size: 35px;
+      }
+.sesion-2 {
+    width: 450px;
+    height: 450px;
+    h3 {
+        font-size: 52px;
+    }
+      div input {
+          font-size: 32px;
+        }
+    div p a {
+        font-size: 37px;
+    }
+    }
+    .sesion-4 {
+    h3 {
+        font-size: 45px;
+        position: relative;
+        top: 25px;
+    }
+    input {
+        font-size: 30px;
+    }
+    }
+    // footer
+footer {
+    .title-foo {
+        font-size: 28px;
+    }
+    .fa-instagram {
+        font-size: $letra-size +5;
+    
+      }
+      
+      .fa-facebook {
+        font-size: $letra-size +5;
+    
+      }
+      .fa-whatsapp {
+        font-size: $letra-size +5;
+    
+      }
+      .breadcrumb-item {
+        font-size: 25px;
+      }
+      .pyp a {
+        font-size: 25px;
+      }
+}
+//  nosotras
+.nosotras-0 h3 {
+        font-size: 30px;
+    }  
+.nosotras-3 h3 {    
+    font-size: 30px;
+}
+
+.nosotras-2 h3 {
+    font-size: 35px;
+}
+
+}

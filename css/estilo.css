@@ -833,7 +833,59 @@ nav {
     grid-template-rows: repeat(2, 400px); }
     .galeria2 img {
       width: 80%;
-      height: 80%; } }
+      height: 80%; }
+  .nosotras-0 h3 {
+    font-size: 25px; }
+  .nosotras-3 h3 {
+    font-size: 25px; } }
+
+@media only screen and (min-width: 2560px) {
+  .navbar-nav {
+    padding-left: 79%; }
+  .navbar-light .navbar-nav .nav-link {
+    font-size: 25px; }
+  .dropdown-menu {
+    font-size: 19px; }
+  .logo-amici {
+    width: 180px;
+    height: 180px; }
+  #cartas {
+    margin-left: 26%; }
+  .sesion-1 h3 {
+    font-size: 35px; }
+  .sesion-2 {
+    width: 450px;
+    height: 450px; }
+    .sesion-2 h3 {
+      font-size: 52px; }
+    .sesion-2 div input {
+      font-size: 32px; }
+    .sesion-2 div p a {
+      font-size: 37px; }
+  .sesion-4 h3 {
+    font-size: 45px;
+    position: relative;
+    top: 25px; }
+  .sesion-4 input {
+    font-size: 30px; }
+  footer .title-foo {
+    font-size: 28px; }
+  footer .fa-instagram {
+    font-size: 45px; }
+  footer .fa-facebook {
+    font-size: 45px; }
+  footer .fa-whatsapp {
+    font-size: 45px; }
+  footer .breadcrumb-item {
+    font-size: 25px; }
+  footer .pyp a {
+    font-size: 25px; }
+  .nosotras-0 h3 {
+    font-size: 30px; }
+  .nosotras-3 h3 {
+    font-size: 30px; }
+  .nosotras-2 h3 {
+    font-size: 35px; } }
 
 body {
   margin: 0%;
